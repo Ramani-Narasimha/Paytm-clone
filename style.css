@@ -1,0 +1,71 @@
+*{
+	margin: 0%;
+}
+.navbar{
+       padding: 2%;
+}
+.navbar img{
+	   vertical-align: middle;
+}
+.navbar a{
+       text-decoration: none;
+       color: black;
+       font-size: 17px;
+       margin-left: 4%;
+}
+.navbar a:hover{
+	background-color: lightgrey;
+} 
+.logo{
+	margin: 0% 6.7% 0% 3%;
+}
+#signin{
+	margin-left: 10%;
+	background-color: #00baf2;
+	color: white;
+	padding: 1%;
+	border-radius: 25px;
+	text-align: center;
+}
+.upi{
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 20px;
+	background-color: #f3f2f5;
+	padding: 0.6%;
+}
+.sec2{
+	display: flex;
+	justify-content: space-between;
+	padding: 4% 0% 3% 8%;
+	font-size: 35px;
+}
+.sec2 h1{
+	font-family: poppins;
+	font-size: 54px;
+}
+.sec2 p{
+	font-family: poppins;
+	font-size: 20px;
+	margin-bottom: 5%;
+}
+.download{
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	width: 59%;
+	padding: 1%;
+	border-radius: 25px;
+	text-align: center;
+}
+.download:hover{
+	background-color: white;
+	color: black;
+}
+.icon i{
+	margin-left: 4%;
+}
+.section{
+	padding: 6% 0% 4.5% 0%;
+}
+
