@@ -68,47 +68,375 @@
 .section{
 	padding: 6% 0% 4.5% 0%;
 }
-.div1{
-	display: flex;
-	justify-content: space-evenly;
-	padding: 3%;
-	
-}
-.head{
-	padding: 4% 0% 0% 10%;
-	color: white;
-	font-size: 36px;
-}
 .sec3{
-	background-color: #00baf2;
-	border: 1px solid;
-}
-.div2{
-	display: flex;
-	justify-content: space-evenly;
+	background-color: #00BAF2;	
 	color: white;
-	font-size: 18px;
-	padding: 0% 0% 2% 3%;	
+	padding: 4% 10%;
+	font-family: "Poppins";
+	font-size: 25px;
+}
+.sec3div1{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 3%;
+}
+.sec3div1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+.sec3div1 a:hover{
+	background-color: lightblue;
 }
 .sec4{
-	background-color: darkblue;
-	border: 1px solid;
-}
-.Book{
-      padding: 6% 0% 0% 8%;
-      font-size: 40px;
-      color: white;
-}
-.one{
-	display: flex;
-	justify-content: space-evenly;
-	margin-top: 3%;
-}
-.two{
-	display: flex;
-	justify-content: space-evenly;
-	padding: 1% 0% 4% 1%;
-	font-size: 17px;
-	font-family: sans-serif;
+	background-color: #0f4a8a;
 	color: white;
+	padding: 4% 10%;
+	font-family: "Poppins";
+	font-size: 25px;
+}
+.sec5{
+	background-color: rgba(239, 239, 239, 0.6);
+	padding: 5% 13%;
+	font-family: "Poppins";
+}
+.heading{
+	margin-bottom: 3%;
+	font-size: 40px;
+}
+.child1{
+	display: flex;
+}
+.download{
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	width: 59%;
+	padding: 1%;
+	border-radius: 25px;
+	text-align: center;
+}
+.download:hover{
+	background-color: white;
+	color: black;
+}
+.icon i{
+	margin-left: 4%;
+}
+.sec5div1{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 6% 5% 6% 10%;
+	border-radius: 7px;
+}
+.fastest{
+	margin: 8% 0% 4% 0%;
+	font-size: 33px;
+}
+.load{
+	margin-bottom: 10%;
+}
+.bank{
+	margin: 8% 0% 4% 0%;
+	font-size: 33px;
+}
+.sec5div2{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 6% 5% 6% 10%;
+	border-radius: 7px;
+	margin-top: 4%;
+}
+.sec5div3{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 8% 5% 5% 10%;
+	border-radius: 7px;
+	margin-top: 4%;
+}
+.learn{
+	border-radius: 25px;
+	color: white;
+	background-color: #0f4a8a;
+	width: 24%;
+	text-align: center;
+	padding: 2%;
+}
+.learn:hover{
+	background-color: skyblue;
+}
+.sec5div4{
+	display: flex;
+	justify-content: space-between;
+	font-family: "Poppins";
+}
+.child2{
+	background-color: white;
+	margin: 4% 4% 0% 0%;
+	padding: 6% 4% 0% 6%;
+	border-radius: 7px;
+}
+.child3{
+	background-color: white;
+	margin: 4% 0% 0% 0%;
+	padding: 10% 4% 0% 6%;
+	border-radius: 7px;
+}
+.unlimited{
+	padding: 3% 0%;
+	font-size: 37px;
+	font-family: "Poppins";
+}
+.credit{
+	padding: 3% 0%;
+	font-size: 37px;
+	font-family: "Poppins";
+}
+.div4para{
+	font-size: 19px;
+	padding-bottom: 12%;
+}
+.sec6{
+	border: 1px solid white;
+	background-color: white;
+	padding: 10% 13%;
+	font-family: "Poppins";
+	display: flex;
+}
+.heading1{
+	font-size: 47px;
+}
+.image23{
+	padding: 4% 0% 0% 0%;
+}
+.heading2{
+	padding: 5% 0% 0% 0%;
+	font-size: 40px;	
+}
+.sec6 p{
+	padding: 5% 0% 0% 0%;
+}
+.image24{
+	padding-top: 7%;
+	padding-left: 4%;
+}
+#more{
+	border-radius: 25px;
+	color: white;
+	background-color: #0f4a8a;
+	width: 24%;
+	text-align: center;
+	padding: 1.5%;
+	margin-top: 5%;
+}
+#more:hover{
+	background-color: skyblue;
+}
+.sec7{
+	display: flex;
+	justify-content: space-evenly;
+	font-family: "Poppins";
+	background-color: whitesmoke;
+	background-image: url(https://assetscdn1.paytm.com/frontendcommonweb/69678bc5.png);
+}
+.build{
+	font-size: 40px;
+	padding-top: 5%;
+}
+.invest{
+	font-size: 20px;
+	padding-top: 4%;
+}
+.learn{
+	margin-top: 4%;
+}
+.sec8{
+	display: flex;
+	font-family: "Poppins";
+	padding: 9% 0% 0% 10%;
+	border: 1px solid white;
+	background-color: white;
+}
+.insurance{
+	font-size: 36px;
+}
+.buy{
+	font-size: 20px;
+}
+.learn{
+	padding: 1.4%;
+}
+.sec9{
+	display: flex;
+	font-family: "Poppins";
+	justify-content: space-evenly;
+	padding-top: 12%;
+	border: 1px solid white;
+	background-color: whitesmoke;
+	margin-top: 8%;
+	padding: 5% 4% 9% 5%;
+}
+.personal{
+	padding-left: 6%;
+	padding-top: 5%;
+}
+.get{
+	font-size: 34px;
+	padding-top: 6%;
+}
+.offer{
+	font-size: 17px;
+	padding-top: 5%;
+}
+.sec10div1{
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-evenly;
+	font-family: "Poppins";
+	margin-top: 2%;
+	padding: 8% 7% 6% 9%;
+}
+.accept{
+	font-size: 40px;
+	padding: 15% 0% 5% 0%;
+}
+.grow{
+	font-size: 20px;
+}
+.business{
+	font-size: 50px;
+	margin-left: 12%;
+	margin-top: 5%;
+	font-family: "Poppins";
+}
+.sec10div2{
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-evenly;
+	font-family: "Poppins";
+	margin-top: 5%;
+	padding: 8% 7% 6% 7%;
+}
+.shop{
+	font-size: 40px;
+	margin-top: 8%;
+}
+.millions{
+	font-size: 20px;
+	padding-top: 3%;
+}
+
+
+@media (max-width: 390px){
+	.navbar a{
+		font-size: 4px;
+	}
+	#signin{
+		margin-left: 2%;
+	}
+	.upi{
+		font-size: 8px;
+	}
+	.sec2 h1{
+		font-size: 20px;
+		margin-bottom: -8%;
+	}
+	.sec2  p{
+		font-size: 5px;
+	}
+	.download{
+		font-size: 4px;
+		width: 85%;
+	}
+	.sec3div1{
+		flex-direction: column;
+		align-items: center;
+	}
+	.image9{
+		width: 40%;
+	}
+	.image16{
+		width: 60%;
+	}
+	.sec3 h1{
+		font-size: 15px;
+	}
+	.sec4 h1{
+		font-size: 15px;
+	}
+	.heading{
+		font-size: 15px;
+	}
+	.fastest{
+		font-size: 10px;
+	}
+	.load{
+		font-size: 3px;
+	}
+	.child1 p{
+		font-size: 10px;
+	}
+	.bank{
+		font-size: 10px;
+	}
+	.learn{
+		font-size: 5px;
+	}
+	.unlimited{
+		font-size: 8px;
+	}
+	.div4para{
+		font-size: 4px;
+		padding-bottom: -12%
+	}
+	.credit{
+		font-size: 10px;
+	}
+	.heading1{
+		font-size: 15px;
+	}
+	.heading2{
+		font-size: 15px;
+	}
+	.sec6 p{
+		font-size: 6px;
+	}
+	.build{
+		font-size: 15px;
+	}
+	.invest{
+		font-size: 7px;
+	}
+	.insurance{
+		font-size: 15px;
+	}
+	.buy{
+		font-size: 7px;
+	}
+	.get{
+		font-size: 10px;
+		margin-left: 5%;
+	}
+	.offer{
+		font-size: 6px;
+		margin-left: 5%;
+	}
+	.business{
+		font-size: 15px;
+	}
+	.accept{
+		font-size: 15px;
+	}
+	.grow{
+		font-size: 6px;
+	}
+	.shop{
+		font-size: 13px;
+	}
+	.millions{
+		font-size: 5px;
+	}
 }
