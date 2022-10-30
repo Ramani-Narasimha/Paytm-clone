@@ -328,6 +328,55 @@
 	font-size: 20px;
 	padding-top: 3%;
 }
+.sec11div1{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	background-size: 100%;
+	padding: 4% 6% 6% 6%;
+	margin-top: 0%;
+}
+.sec11child1{
+	padding: 2% 0% 5% 8%;
+	background-color: white;
+	margin-top: 0%;
+}
+.sec11child2{
+	padding: 2% 0% 5% 5%;
+	background-color: white;
+	margin-top: 0%;
+}
+.sec11child3{
+	padding: 2% 0.2% 5% 5%;
+	background-color: white;
+	margin-top: 0%;
+}
+.sec11child4{
+	padding: 2% 12% 5% 3%;
+	background-color: white;
+	margin-bottom: 0%;
+}
+.sec11div1 h1{
+	font-family: "Poppins";
+	margin-bottom: 15%;
+	margin-top: 10%;
+	font-size: 25px;
+}
+.sec11div1 p{
+	margin-bottom: 8%;
+	font-size: 18px;
+}
+.tool{
+	font-size: 45px;
+	margin-left: 14%;
+	margin-top: 6%;
+}
+.more{
+	font-size: 17px !important;
+	font-family:"Poppins" ;
+}
+
+
 
 
 @media (max-width: 390px){
@@ -434,9 +483,36 @@
 		font-size: 6px;
 	}
 	.shop{
-		font-size: 13px;
+		font-size: 10px;
 	}
 	.millions{
 		font-size: 5px;
+	}
+	.tool{
+		font-size: 10px;
+	}
+	.sec11child1 h1{
+		font-size: 6px;
+	}
+	.sec11child1 p{
+		font-size: 4px;
+	}
+	.sec11child2 h1{
+		font-size: 6px;
+	}
+	.sec11child2 p{
+		font-size: 4px;
+	}
+	.sec11child3 h1{
+		font-size: 6px;
+	}
+	.sec11child3 p{
+		font-size: 4px;
+	}
+	.sec11child4 h1{
+		font-size: 6px;
+	}
+	.sec11child4 p{
+		font-size: 4px;
 	}
 }
